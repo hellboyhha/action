@@ -1,9 +1,6 @@
 name: CI & CD pipeline
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 env:
   WORKDIR: "/home/adminhha/MappingSite"
