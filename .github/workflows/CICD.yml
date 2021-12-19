@@ -48,4 +48,4 @@ jobs:
           connect_timeout: 10s
           script: |
             cd
-            sudo systemctl stop mapping-site.service
+            sudo systemctl start mapping-site.service
